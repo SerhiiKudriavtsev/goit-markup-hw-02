@@ -84,6 +84,7 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Секции */
@@ -100,9 +101,9 @@ h3 {
 }
 p {
     color: var(--parahraf-text-color);
+    font-weight: normal;
 }
 .section p {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -113,10 +114,9 @@ p {
     text-align: center;
 }
 .team p {
-    font-weight: normal;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 
@@ -161,7 +161,6 @@ text-align: center;
     text-align: left;
 }
 .cards p{
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
 }
