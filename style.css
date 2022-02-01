@@ -14,6 +14,7 @@
     --background-color: #ffffff;
     --background-team-color: #F5F4FA;
     --background-hero-footer-color: #2F303A;
+    --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
 }
 body {
     background-color: var(--background-color);
@@ -54,6 +55,9 @@ color: #2196F3;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.mailh, .telh {
+    color: var(--parahraf-text-color);
+}
 .header .list:hover, 
 .header .list:focus {
     color: var(--accent-color);
@@ -77,7 +81,8 @@ h1 {
 button {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -88,13 +93,13 @@ button {
 }
 
 /* Секции */
-h2 {font-weight: bold;
+h2 {font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-h3 {
-    font-weight: bold;
+.section h3 {
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -107,13 +112,13 @@ p {
     font-size: 14px;
     line-height: 1.71;
 }
-.team h3 {
+.section-team h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
-.team p {
+.section-team p {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -122,7 +127,9 @@ p {
 
 /* Футер */
 .footer {
-    color: var(--hero-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     background-color: var(--background-hero-footer-color);
 }
 .footer .link:hover,
@@ -138,11 +145,21 @@ p {
 .logof span:hover {
     color: var(--accent-color);
 }
+.city {
+    font-style: normal;
+    color: var(--hero-text-color);
+}
+.mail, .tel{
+    font-style: normal;
+    color: var(--footer-mail-tel-color);
+}
+
 
 /*portfolio*/
 .buttons button{
     color: var(--primery-text-color);
     background-color: var(--background-team-color);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -154,7 +171,7 @@ p {
     background-color: var(--accent-color);
 }
 .cards h2{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
