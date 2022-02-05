@@ -15,6 +15,7 @@
     --background-team-color: #F5F4FA;
     --background-hero-footer-color: #2F303A;
     --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
+    --hero-buttom-hover-color: #188CE8;
 }
 body {
     background-color: var(--background-color);
@@ -32,6 +33,7 @@ li {
     list-style: none;
 }
 
+/* Хедер*/
 /* Логотип */
 .logo {
 font-family: Raleway, Oleo Script, sans-serif;
@@ -91,6 +93,9 @@ button {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+button:hover, button:focus {
+    background-color: var(--hero-buttom-hover-color);
+}
 
 /* Секции */
 h2 {font-weight: 700;
@@ -112,6 +117,10 @@ p {
     font-size: 14px;
     line-height: 1.71;
 }
+.section-team{
+    background: var(--background-team-color);
+}
+}
 .section-team h3 {
     font-weight: 500;
     font-size: 16px;
@@ -122,7 +131,7 @@ p {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-}
+
 
 
 /* Футер */
